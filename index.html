@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Abdulrahman Alaqili CV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <button onclick="switchLang()">Switch Language</button>
+
+  <div class="cv en" id="cv">
+
+    <h1>Abdulrahman Alaqili</h1>
+    <p><strong>Date of Birth:</strong> 15/06/1995</p>
+    <p><strong>Address:</strong> Yemen - Marib</p>
+    <p><strong>Phone:</strong> +967777614190</p>
+    <p><strong>Email:</strong> aasssamm6@gmail.com</p>
+
+    <h2>EDUCATION:</h2>
+    <ul>
+      <li>Bachelor’s degree at year 2022</li>
+      <li>Public Administration</li>
+      <li>College of Administrative and Financial Sciences</li>
+      <li>University of Saba Region</li>
+    </ul>
+
+    <h2>EXPERIENCE:</h2>
+    <ul>
+      <li>Baseline at the FMF 2021</li>
+      <li>Administrative Assistant at the Public Works Office from 1 Jan to 31 Dec 2023</li>
+      <li>Representative of the Jirada Subdistrict for distributing humanitarian aid 2023</li>
+      <li>Trainer in risks of war remnants with National Program and UNICEF 2024</li>
+    </ul>
+
+    <h2>CERTIFICATES & COURSES:</h2>
+    <ul>
+      <li>Diploma in Computer Driving (Ms Word, Excel, PowerPoint)</li>
+      <li>Onyx Pro Accounting System Course - Yemen Soft</li>
+      <li>Administrative & Technical Skills Programs</li>
+      <li>Operational Strategic Planning Course</li>
+      <li>Training of Trainers Course (TOT)</li>
+      <li>Secretarial & Modern Office Management</li>
+      <li>Junior Diploma in English Language</li>
+    </ul>
+
+    <h2>SKILLS:</h2>
+    <ul>
+      <li>Computer use & technical knowledge</li>
+      <li>Teamwork under pressure</li>
+      <li>Planning & setting priorities</li>
+      <li>Leading & communication skills</li>
+      <li>Risk management & decision-making</li>
+    </ul>
+
+  </div>
+
+  <div class="cv ar" id="cv-ar" style="display:none">
+
+    <h1>عبدالرحمن العقيلي</h1>
+    <p><strong>تاريخ الميلاد:</strong> 15/06/1995</p>
+    <p><strong>العنوان:</strong> اليمن - مأرب</p>
+    <p><strong>الهاتف:</strong> +967777614190</p>
+    <p><strong>البريد الإلكتروني:</strong> aasssamm6@gmail.com</p>
+
+    <h2>المؤهل العلمي:</h2>
+    <ul>
+      <li>درجة البكالوريوس 2022</li>
+      <li>إدارة عامة</li>
+      <li>كلية العلوم الإدارية والمالية</li>
+      <li>جامعة إقليم سبأ</li>
+    </ul>
+
+    <h2>الخبرات:</h2>
+    <ul>
+      <li>خط أساس FMF 2021</li>
+      <li>مساعد إداري بمكتب الأشغال العامة 2023</li>
+      <li>مندوب عزلة الجرادة 2023</li>
+      <li>مدرب في مخلفات الحرب - البرنامج الوطني واليونيسف 2024</li>
+    </ul>
+
+    <h2>الشهادات والدورات:</h2>
+    <ul>
+      <li>دبلوم قيادة الحاسب (Ms Word, Excel, PowerPoint)</li>
+      <li>دورة النظام المحاسبي أونيكس برو - يمن سوفت</li>
+      <li>مهارات إدارية وتقنية</li>
+      <li>دورة تخطيط استراتيجي</li>
+      <li>دورة تدريب المدربين TOT</li>
+      <li>إدارة المكاتب الحديثة</li>
+      <li>دبلوم لغة إنجليزية مبتدئ</li>
+    </ul>
+
+    <h2>المهارات:</h2>
+    <ul>
+      <li>استخدام الحاسب والمعرفة التقنية</li>
+      <li>العمل ضمن فريق تحت الضغط</li>
+      <li>التخطيط وتحديد الأولويات</li>
+      <li>قيادة الفرق وفن التواصل</li>
+      <li>إدارة المخاطر واتخاذ القرار</li>
+    </ul>
+
+  </div>
+
+  <script>
+    function switchLang(){
+      const en = document.getElementById('cv');
+      const ar = document.getElementById('cv-ar');
+      if(en.style.display === 'none'){
+        en.style.display = 'block';
+        ar.style.display = 'none';
+      } else {
+        en.style.display = 'none';
+        ar.style.display = 'block';
+      }
+    }
+  </script>
+
+</body>
+</html>
